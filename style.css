@@ -1,0 +1,83 @@
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      margin: 0;
+      background-color: #f8f9fa;
+    }
+
+    header {
+      background-color: #ffc1cc;
+      padding: 20px;
+      font-size: 32px;
+      font-weight: bold;
+      color: #000;
+    }
+
+    details {
+      margin-top: 10px;
+      font-size: 14px;
+      cursor: pointer;
+    }
+
+    details summary {
+      font-weight: bold;
+    }
+
+    .subjects {
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      margin: 20px;
+      flex-wrap: wrap;
+    }
+
+    .subject-card {
+      background-color: #fff;
+      border-radius: 10px;
+      padding: 10px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      width: 180px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .subject-card img {
+      width: 150px;
+      height: 200px;
+      border-radius: 8px;
+    }
+
+    .grade-input {
+      margin-top: 10px;
+      font-size: 18px;
+      width: 80px;
+      padding: 5px;
+      text-align: center;
+      border: 2px solid #3b0066;
+      border-radius: 5px;
+    }
+
+    .btn {
+      margin: 20px auto;
+      padding: 10px 20px;
+      background-color: #ffc1cc;
+      color: #000;
+      font-weight: bold;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      font-size: 16px;
+    }
+
+    .note {
+      font-size: 12px;
+      margin-top: 20px;
+      color: #666;
+    }
+
+    footer {
+      margin-top: 30px;
+      font-size: 12px;
+      color: #666;
+    }

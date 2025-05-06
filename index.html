@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title>Score Analyzer</title>
+</head>
+<body>
+
+  <header>Score Analyzer</header>
+
+	<details>
+    <summary>Click Me</summary>
+    <p>Enter your grades in the following subjects.</p>
+
+  <div class="subjects">
+    <div class="subject-card">
+      <img src="https://i.pinimg.com/736x/8c/19/36/8c1936509630b73d6a48c58c4dac4fbc.jpg" alt="Science">
+	<input type="number" class="form-control text-center" id="science" placeholder="87" required>
+	</div>
+    <div class="subject-card">
+      <img src="https://ih1.redbubble.net/image.848163646.1081/flat,750x,075,f-pad,750x1000,f8f8f8.jpg" alt="Math">
+	<input type="number" class="form-control text-center" id="math" placeholder="88" required>
+    </div>
+    <div class="subject-card">
+      <img src="https://i.pinimg.com/736x/39/eb/cf/39ebcffc41c7b21ebf5a7377d759be02.jpg" alt="English">
+	<input type="number" class="form-control text-center" id="english" placeholder="92" required>
+    </div>
+  </div>
+	</details>
+
+  <div id="output"></div>
+
+  <button class="btn" onclick="calculateAverage()">Get Rating</button>
+  <div class="note">Note: Grading Criteria and Equivalents can vary depending on school or district.</div>
+  <footer>Charlize Pontillas | 9-Sapphire</footer>
+
+  	<script type="text/javascript" src="main.js"></script>
+
+</body>
+</html>
